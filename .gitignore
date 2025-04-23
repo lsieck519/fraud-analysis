@@ -1,0 +1,4 @@
+.DS_Store
+.vscode
+raw-data/
+fraud_data.db
