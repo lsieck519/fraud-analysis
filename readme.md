@@ -32,6 +32,7 @@ Objective: You are given a dataset of orders created over a period of time, incl
 
 **Results**
 - [Fraud Trends Query](/sql-queries/potential-fraud.sql)
+- [Connected Accounts Query](/sql-queries/phone-numbers.sql)
 - [Summary and Actions](/summary.md#task-2)
 
 ---
