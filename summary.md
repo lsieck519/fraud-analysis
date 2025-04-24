@@ -8,7 +8,7 @@
 **Definition:** Transactions that were not flagged as fraud but resulted in chargebacks.
 
 **Analysis:**
-- **Count:** There are 12 false negative transactions in the dataset.
+- **Count:** There are 12 false negative transactions in the dataset. If we include "declined" results, the number goes up to 16.
 - **Fraud Scores:** Range from 22 to 65.
 - **Insights:** 20% of transactions are bypassing the fraud detection measures, resulting in chargebacks. Reviewing these transactions for patterns could lead to the identification of additional fraud screening rules. It's worth noting that chargebacks can also occur for reasons other than fraud. In these cases, root cause analysis would be beneficial.
 
@@ -24,7 +24,7 @@
 **Analysis:**
 - **Count:** There are 10 false positive transactions in the dataset.
 - **Fraud Scores:** Range from 78 to 88.
-- **Insights:** 10% of transactions are inaccurately flagged as fraud. This decreases revenue from legitimate customers and reduces customer satisfaction. Legitimate transactions in the fraud queue also take time away from reviewing actual fraud.
+- **Insights:** ~16% of transactions are inaccurately flagged as fraud. This decreases revenue from legitimate customers and reduces customer satisfaction. Legitimate transactions in the fraud queue also take time away from reviewing actual fraud.
 
 **Actions:**
 - Consider increasing the scoring threshold for the fraud queue.
