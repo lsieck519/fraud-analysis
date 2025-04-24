@@ -31,7 +31,7 @@ Objective: You are given a dataset of orders created over a period of time, incl
 * When adding such rules with any fraud provider, list out your steps.
 
 **Results**
-- [Fraud Trends Query](/sql-queries/potential-fraud.sql)
+- [Fraud Trends Query](/sql-queries/fraud-trends.sql)
 - [Connected Accounts Query](/sql-queries/phone-numbers.sql)
 - [Summary and Actions](/summary.md#task-2)
 
